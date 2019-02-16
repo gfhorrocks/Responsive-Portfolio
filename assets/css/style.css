@@ -64,6 +64,7 @@ h3 {
 }
 
 #logo {
+  margin-left: 20px;
   float: left;
   width: 250px;
   height: 90px;
@@ -214,4 +215,38 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+@media screen and (max-width: 640px){
+  #logo{
+    width: 100%;
+  }
+  nav{
+    width: 100%;
+    
+  }
+  nav a{
+    
+    float: right;
+    margin-right: 100px;
+  }
+  section.main-section{
+    margin: 60px 20px 0 20px;
+    width: 90%;
+  }  
+}
+
+@media screen and (min-width: 641px){
+ 
+  nav{
+    width: 50%;
+    float: right;
+  }
+  nav a{
+    margin-left: 30px;
+  }
+  section.main-section{
+    margin: 0 20px 0 20px;
+    width: 95%;
+  }  
 }
